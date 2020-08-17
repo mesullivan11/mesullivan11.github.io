@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8">
+	<title>Melanie Sullivan</title>
+	<link rel="stylesheet" href="homepage.css" type="text/css"/>
+	<link rel="shortcut icon" href="icon.png">
+	<script>
+		function overButton(img){
+			buttonImg = "button_"+img+"over.png"
+			document.getElementById(img).src = buttonImg
+			}
+		function upButton(img) {
+			buttonImg = "button_"+img+".png"
+			document.getElementById(img).src = buttonImg
+			}
+	</script>		
+</head>
+<body>
+<div id="container">
+	<div class="header">
+		<div class="icon">
+			<a href="homepage.html"><img src="icon.png"></a>
+		</div>
+		<div class="navbar">
+			<table border="0" style="margin:auto; margin-right:auto";>
+			<tr>
+			<td><a href="homepage.html" style="cursor:pointer;" type="button" "><img id="home" height="50px" width="112px" src="button_home.png"
+onMouseOut="upButton('home')" onMouseOver="overButton('home')"></a></td>			
+			<td><a href="aboutme.html" style="cursor:pointer;" type="button" "><img id="profile" height="50px" width="121px" src="button_profile.png"
+onMouseOut="upButton('profile')" onMouseOver="overButton('profile')"></a></td>				
+			<td><a href="album.html" style="cursor:pointer;" type="button" "><img id="album" height="50px" width="119px" src="button_album.png"
+onMouseOut="upButton('album')" onMouseOver="overButton('album')"></a></td>			
+			<td><a href="family.html" style="cursor:pointer;" type="button" "><img id="family" height="50px" width="121px" src="button_family.png"
+onMouseOut="upButton('family')" onMouseOver="overButton('family')"></a></td>			
+			<td><a href="contact.html" style="cursor:pointer;" type="button" "><img id="contact" height="50px" width="145px" src="button_contact.png"
+onMouseOut="upButton('contact')" onMouseOver="overButton('contact')"></a></td>			
+			</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="Content"><br><br><br>
+		<h2 class="contentTitleh2">
+			My Album
+		</h2>
+		<br><br><br>
+		<table class="picture">
+			<tr>
+				<td><img src="Ireland1.jpg" width="200px" height="200px" alt=""></td>
+				<td><img src="Ireland2.jpg" width="200px" height="200px" alt"""></td>
+				<td><img src="Ireland3.jpg" width="200px" height="200px" alt=""></td>
+				<td><img src="Ireland4.jpg" width="200px" height="200px" alt=""></td>
+			</tr>	
+		</table>
+		<table class="picture">
+			<tr>
+				<td><img src="Ireland5.jpg" width="200px" height="200px" alt""></td>
+				<td><img src="Ireland6.jpg" width="200px" height="200px" alt""></td>
+				<td><img src="Ireland7.jpg" width="200px" height="200px" alt""></td>
+				<td><img src="Ireland8.jpg" width="200px" height="200px" alt""></td>
+				<caption>My study abroad in Ireland!</caption>
+			</tr>
+		</table>
+		<table class="picture">
+			<tr>
+				<td><img src="ISU1.jpg" width="200px" height="200px" alt=""></td>
+				<td><img src="ISU2.jpg" width="200px" height="200px" alt=""></td>
+				<td><img src="ISU3.jpg" width="200px" height="200px" alt""></td>
+				<td><img src="ISU4.jpeg" width="200px" height="200px" alt=""></td>
+				<caption>Supporting the Cyclones!</caption>
+			</tr>
+		</table>
+		<br><br><br>
+	</div>
+</div>
+</body>
+</html>

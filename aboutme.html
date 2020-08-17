@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8">
+	<title>Melanie Sullivan</title>
+	<link rel="stylesheet" href="homepage.css" type="text/css"/>
+	<link rel="shortcut icon" href="icon.png">
+	<script>
+		function overButton(img){
+			buttonImg = "button_"+img+"over.png"
+			document.getElementById(img).src = buttonImg
+			}
+		function upButton(img) {
+			buttonImg = "button_"+img+".png"
+			document.getElementById(img).src = buttonImg
+			}
+	</script>
+</head>
+<body>
+<div id="container">
+	<div class="header">
+		<div class="icon">
+			<a href="homepage.html"><img src="icon.png"></a>
+		</div>
+		<div class="navbar">
+			<table border="0" style="margin:auto; margin-right:auto";>
+			<tr>
+			<td><a href="homepage.html" style="cursor:pointer;" type="button" "><img id="home" height="50px" width="112px" src="button_home.png"
+onMouseOut="upButton('home')" onMouseOver="overButton('home')"></a></td>
+			<td><a href="aboutme.html" style="cursor:pointer;" type="button" "><img id="profile" height="50px" width="121px" src="button_profile.png"
+onMouseOut="upButton('profile')" onMouseOver="overButton('profile')"></a></td>
+			<td><a href="album.html" style="cursor:pointer;" type="button" "><img id="album" height="50px" width="119px" src="button_album.png"
+onMouseOut="upButton('album')" onMouseOver="overButton('album')"></a></td>
+			<td><a href="family.html" style="cursor:pointer;" type="button" "><img id="family" height="50px" width="121px" src="button_family.png"
+onMouseOut="upButton('family')" onMouseOver="overButton('family')"></a></td>
+			<td><a href="contact.html" style="cursor:pointer;" type="button" "><img id="contact" height="50px" width="145px" src="button_contact.png"
+onMouseOut="upButton('contact')" onMouseOver="overButton('contact')"></a></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+
+<div class="Content">
+	<h2 class="contentTitleh2">
+	My Profile
+    </h2>
+    <div class="inner_Content">
+		<div class="photo" style = "margin-left:auto; margin-right:0;">
+			<img src="profilepic.jpg" width="340" height="453">
+		</div>
+		<ul style="list-style: none; width:60%; padding: 0;">
+			<li class="regularChild">
+				<img class="img1" style="margin-top: 5px;" src="education.png" width="136" height="40">
+				<ul class="secondLevelChild">
+					<li class="secondLevelRegularChild"><a class="links" href="#"><b>Music B.A. and Management Information Systems and Marketing B.S.</b><br>Iowa State University &nbsp;(Aug, 2016 - Dec, 2020)</a></li>
+					<li class="secondLevelRegularChild"><a class="links" href="#"><b>Study Abroad Program </b><br>University College Cork (Cork, Ireland) &nbsp;(Jan, 2019 - May, 2019)</a></li>
+				</ul>
+				<span class="clear"></span>
+			</li>
+			<li class="regularChild">
+				<img class="img1" style="margin-top: 5px;" src="workexperience.png" width="195" height="40">
+				<ul class="secondLevelChild">
+					<li class="secondLevelRegularChild"><a class="links" href="#"><b>Marketing Intern</b><br>First Fleet Concerts, Des Moines, Iowa (Summer, 2019)</a></li>
+					<li class="secondLevelRegularChild"><a class="links" href="#"><b>Bakery Clerk and Checker</b><br>Hy-vee (Feb, 2017 - Present)</a></li>
+					<li class="secondLevelRegularChild"><a class="links" href="#"><b>Cashier and Concession Attendant</b><br>City of Cedar Rapids (Summer, 2016)</a></li>
+				</ul>
+				<span class="clear"></span>
+			</li>
+			<li class="regularChild">
+				<img class="img1" style="margin-top: 5px;" src="activities.png" width="128" height="40">
+				<ul class="secondLevelChild">
+					<li class="secondLevelRegularChild"><a class="links" href"#"><b>ISU Wind Ensemble</b><br>Flutist (Aug, 2016 - Present)</a></li>
+					<li class="secondLevelRegularChild"><a class="links" href"#"><b>Student Union Board</b><br>Marketing Committee Member (Jan, 2018 - Present)</a></li>
+					<li class="secondLevelRegularChild"><a class="links" href"#"><b>Ames International Orchestra Festival Association (AIOFA)</b><br>Board member (Aug, 2016 - Present)</a></li>
+				</ul>
+				<span class="clear"></span>
+			</li>
+			<li class="lastChild">
+				<img class="img1" style="margin-top: 5px;" src="achievements.png" width="173" height="40">
+				<ul class="secondLevelChild">
+					<li class="secondLevelRegularChild"><a class="links" href"#">
+					Flute Scholarship (2016 - 2020)<br>
+					Academic Recognition Award (2016 - 2020)<br>
+					Macy's Great American Marching Band Member (2015)
+					</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</body>
+</html>

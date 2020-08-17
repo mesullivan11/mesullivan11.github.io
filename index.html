@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8">
+	<title>Melanie Sullivan</title>
+	<link rel="stylesheet" href="homepage.css" type="text/css"/>
+	<link rel="shortcut icon" href="icon.png">
+	<script>
+		function overButton(img){
+			buttonImg = "button_"+img+"over.png"
+			document.getElementById(img).src = buttonImg
+			}
+		function upButton(img) {
+			buttonImg = "button_"+img+".png"
+			document.getElementById(img).src = buttonImg
+			}
+	</script>
+</head>
+<body>
+<div id="container">
+	<div class="header">
+		<div class="icon">
+			<a href="homepage.html"><img src="icon.png"></a>
+		</div>
+		<div class="navbar">
+			<table border="0" style="margin:auto; margin-right:auto";>
+			<tr>
+			<td><a href="homepage.html" style="cursor:pointer;" type="button" "><img id="home" height="50px" width="112px" src="button_home.png"
+onMouseOut="upButton('home')" onMouseOver="overButton('home')"></a></td>
+			<td><a href="aboutme.html" style="cursor:pointer;" type="button" "><img id="profile" height="50px" width="121px" src="button_profile.png"
+onMouseOut="upButton('profile')" onMouseOver="overButton('profile')"></a></td>
+			<td><a href="album.html" style="cursor:pointer;" type="button" "><img id="album" height="50px" width="119px" src="button_album.png"
+onMouseOut="upButton('album')" onMouseOver="overButton('album')"></a></td>
+			<td><a href="family.html" style="cursor:pointer;" type="button" "><img id="family" height="50px" width="121px" src="button_family.png"
+onMouseOut="upButton('family')" onMouseOver="overButton('family')"></a></td>
+			<td><a href="contact.html" style="cursor:pointer;" type="button" "><img id="contact" height="50px" width="145px" src="button_contact.png"
+onMouseOut="upButton('contact')" onMouseOver="overButton('contact')"></a></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="Content">
+		<div class="Content1">
+			<div id="welcome">
+			<h1>Welcome to my homepage!</h1>
+			<p>I'm <span style="font-size: 40px; color: #BA55D3">Melanie Sullivan</span>
+			</p>
+			<p style="font-size:18px;">A 5th year majoring in Music, Marketing, and Management Information Systems at Iowa State University.
+				After taking a Web Programming class for fun my senior year, I realized that coding was something that I really wanted to do, so I added the MIS major.
+				With the skills that I am learning, I hope to become a web developer in the near future. 
+			  </p>
+			</div>
+		</div>
+		<div class="Content2">
+			<div id="selfImage">
+			<img height=383px; width=340px; src="homepagepic.jpg">
+			</div>
+		</div>
+		<br>
+		<div class="footer">
+			Favorite Quote: Doubt kills more dreams than failure ever will
+			<br><br>
+		</div>
+	</div>
+</div>
+</body>
+</html>
