@@ -30,6 +30,8 @@ height: 100%;}
 #welcome {margin-top: 55px;
           margin-left: 2%; margin-right: 2%;
 	      font-family: "Arial Black", Gadget, sans-serif;}
+#resume {text-align: right;
+	margin-top: 30px;}
 .Content2 {display: inline;
 		   margin-left: 80px;
 		   color: black;
